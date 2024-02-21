@@ -7,7 +7,7 @@ from neptune.neptune_stack import NeptuneStack
 
 
 app = cdk.App()
-NeptuneStack(app, "NeptuneStack",
+NeptuneStack(app, "ZenithGraphStack",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.
